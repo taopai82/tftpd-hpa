@@ -5,5 +5,5 @@ VOLUME /tftpboot
 EXPOSE 69/udp
 
 ENTRYPOINT ["in.tftpd"]
-CMD ["--verbose", "--foreground", "--secure", "/tftpboot"]
+CMD ["--verbosity=4", "--foreground", "--secure", "/tftpboot"]
 
