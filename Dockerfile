@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --update tftp-hpa
+RUN apk add tftp-hpa
 VOLUME /tftpboot
 EXPOSE 69/udp
 
